@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 public class loginstep {
     @Given("user is on the login page")
     public void userIsOnTheLoginPage() {
-        System.out.println("user is on the login page");
+        System.out.println("user is on the login ");
         System.out.println("text");
     }
 
@@ -20,3 +20,4 @@ public class loginstep {
         System.out.println("user should be navigated to the home page");
     }
 }
+
